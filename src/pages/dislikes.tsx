@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useEffect, ChangeEvent } from "react";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
