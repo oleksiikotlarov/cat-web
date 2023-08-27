@@ -4,7 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { addFavoriteImage, voteImage } from "@/pages/utils/util";
+import { addFavoriteImage, voteImage } from "@/utils/util";
 import { useRouter } from "next/router";
 
 interface CatImageData {

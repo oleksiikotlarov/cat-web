@@ -7,7 +7,7 @@ import Link from "next/link";
 import Dropdown from "./components/utils/DropDown";
 import { useRouter } from "next/router";
 import ImageGrid from "./components/utils/ImageGrid";
-import { breedsData, limits } from "./utils/data";
+import { breedsData, limits } from "../utils/data";
 import Modal from "./components/Modal";
 
 interface BreedWeight {
