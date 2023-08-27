@@ -37,7 +37,7 @@ const BreedDetails: React.FC<{ cat: CatData }> = ({ cat }) => {
             animate={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -50 }}
             transition={{ ease: "easeInOut", duration: 0.5 }}>
-            <Nav />
+            <Nav/>
           </motion.div>
           <motion.div
             animate={{ opacity: 1, x: 0 }}

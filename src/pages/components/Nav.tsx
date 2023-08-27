@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import MenuMobile from "./utils/MenuMobile";
 
 interface NavProps {
-  placeholder: string;
-  searchValue: string;
-  handleSearchChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  placeholder?: string;
+  searchValue?: string;
+  handleSearchChange?: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 
 const Nav: React.FC<NavProps> = ({
