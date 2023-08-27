@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
-import Hero from "../../components/Hero";
-import Nav from "../../components/Nav";
-import Wrapper from "../../components/Wrapper";
+import Hero from "../../../components/Hero";
+import Nav from "../../../components/Nav";
+import Wrapper from "../../../components/Wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";

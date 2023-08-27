@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "./components/Nav";
-import Wrapper from "./components/Wrapper";
+import Nav from "../components/Nav";
+import Wrapper from "../components/Wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";

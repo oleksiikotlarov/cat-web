@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import "@/styles/globals.css";
 import Head from "next/head";
-import Hero from "./components/Hero";
+import Hero from "../components/Hero";
 import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }: AppProps) {

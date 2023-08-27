@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeroButton from "./../utils/HeroButton";
+import HeroButton from "./HeroButton";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
